@@ -1,0 +1,15 @@
+<Project>
+  <PropertyGroup>
+    <ProductName>远程输入桥</ProductName>
+    <Version>1.0.0</Version>
+    <ReleaseBuild>12</ReleaseBuild>
+    <!-- Stable identity: macOS preferences and privacy grants are keyed to it.
+         Override locally in resources/Product.local.props (untracked). -->
+    <MacBundleIdentifier>local.remoteinput.bridge</MacBundleIdentifier>
+    <Product>$(ProductName)</Product>
+    <AssemblyVersion>$(Version).$(ReleaseBuild)</AssemblyVersion>
+    <FileVersion>$(Version).$(ReleaseBuild)</FileVersion>
+    <InformationalVersion>$(Version)+build.$(ReleaseBuild)</InformationalVersion>
+    <IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
+  </PropertyGroup>
+</Project>

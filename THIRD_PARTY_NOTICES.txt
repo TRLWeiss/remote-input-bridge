@@ -1,0 +1,7 @@
+Remote VoiceIME
+https://github.com/jacksonlin-infra/remote-voiceime
+Upstream commit: db1aa99a012e4d4a39a6497d5c5df08ba7993233
+License: MIT
+
+Local modifications: local application destination; Control+Option+Space shortcut; quick Mac/Windows paste selector; aggregate-only speech statistics integration.
+Full license: sources/RemoteInput/LICENSE
